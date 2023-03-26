@@ -11,6 +11,8 @@
 		7DF3F84329D0C76F005D0642 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3F84229D0C76F005D0642 /* ContentView.swift */; };
 		7DF3F84529D0C772005D0642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF3F84429D0C772005D0642 /* Assets.xcassets */; };
 		7DF3F84829D0C772005D0642 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF3F84729D0C772005D0642 /* Preview Assets.xcassets */; };
+		7DF3F85129D0C824005D0642 /* SiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3F85029D0C824005D0642 /* SiteView.swift */; };
+		7DF3F85329D0C96E005D0642 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF3F85229D0C96E005D0642 /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		7DF3F84229D0C76F005D0642 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7DF3F84429D0C772005D0642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DF3F84729D0C772005D0642 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7DF3F85029D0C824005D0642 /* SiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SiteView.swift; sourceTree = "<group>"; };
+		7DF3F85229D0C96E005D0642 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		7DF3F83F29D0C76F005D0642 /* SwiftUIChartsTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				7DF3F84F29D0C814005D0642 /* View */,
+				7DF3F84E29D0C80A005D0642 /* Model */,
 				7DF3F84029D0C76F005D0642 /* SwiftUIChartsTutorialApp.swift */,
 				7DF3F84229D0C76F005D0642 /* ContentView.swift */,
 				7DF3F84429D0C772005D0642 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				7DF3F84729D0C772005D0642 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7DF3F84E29D0C80A005D0642 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DF3F85029D0C824005D0642 /* SiteView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DF3F84F29D0C814005D0642 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DF3F85229D0C96E005D0642 /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DF3F85129D0C824005D0642 /* SiteView.swift in Sources */,
 				7DF3F84329D0C76F005D0642 /* ContentView.swift in Sources */,
+				7DF3F85329D0C96E005D0642 /* Home.swift in Sources */,
 				7DF3F84129D0C76F005D0642 /* SwiftUIChartsTutorialApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
